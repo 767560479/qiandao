@@ -11,6 +11,10 @@ jobs:
     env:
       AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
     steps:
-      - name: 执行签到脚本
-        run: |
-          node ./index.js
+      # 第一步：检出仓库代码
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      # 第二步：运行签到脚本
+      - name: Run Check-in Script
+        run: node index.js

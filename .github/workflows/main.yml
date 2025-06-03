@@ -1,0 +1,16 @@
+name: 每日签到
+on:
+  schedule:
+    # UTC时间每天9点运行(北京时间17点)，调整时区需要修改时间为UTC+8的1点
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+jobs:
+  checkin:
+    runs-on: ubuntu-latest
+    env:
+      AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
+    steps:
+      - name: 执行签到脚本
+        run: |
+          node ./index.js

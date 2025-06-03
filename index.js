@@ -193,6 +193,7 @@ async function main() {
     Utils.log('开始执行签到任务...')
 
     for (const token of tokens) {
+      Utils.log(`执行token:${token}--开始`, 'info')
       const executor = new ActivityExecutor(token)
       try {
         await executor.executeSignIn()
@@ -200,6 +201,7 @@ async function main() {
       } catch (error) {
         Utils.log(error.message, 'error')
       }
+      Utils.log(`执行token:${token}--结束`, 'info')
     }
 
     Utils.log('所有任务执行完成！')

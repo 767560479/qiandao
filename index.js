@@ -14,8 +14,8 @@ class Config {
     timeout: 10000, // 请求超时时间：10秒
     maxRetries: 3, // 请求失败最大重试次数
     retryDelay: 1000, // 请求失败重试间隔：1秒
-    activityDelay: 8000, // 活动执行间隔：8秒
-    maxAttempts: 15, // 活动最大执行次数
+    activityDelay: 12000, // 活动执行间隔：12秒
+    maxAttempts: 5, // 活动最大执行次数
   }
 
   static TASKS = {

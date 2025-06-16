@@ -21,26 +21,26 @@ class Config {
   static TASKS = {
     SIGN_IN: '5f2722e2668b3b6de7c14d495e3cbb51',
     ACTIVITIES: [
-      {
-        taskName: '浏览游戏广告',
-        taskId: '49986ea4f9f6420bc6db9e0c58eb8819',
-      },
-      {
-        taskName: '浏览商品广告',
-        taskId: 'fdae379cb3b3a19d6b654625f0747801',
-      },
-      {
-        taskName: '浏览视频广告',
-        taskId: 'd5bc74ea7d8590d5cff7921e2885edf3',
-      },
-      {
-        taskName: '浏览普通广告',
-        taskId: '1a73ab0327754bb83e3ea0edc5aa834a',
-      },
-      {
-        taskName: '隐藏广告',
-        taskId: 'f8fc47359795fe39535ead4bca48d175',
-      },
+      // {
+      //   taskName: '浏览游戏广告',
+      //   taskId: '49986ea4f9f6420bc6db9e0c58eb8819',
+      // },
+      // {
+      //   taskName: '浏览商品广告',
+      //   taskId: 'fdae379cb3b3a19d6b654625f0747801',
+      // },
+      // {
+      //   taskName: '浏览视频广告',
+      //   taskId: 'd5bc74ea7d8590d5cff7921e2885edf3',
+      // },
+      // {
+      //   taskName: '浏览普通广告',
+      //   taskId: '1a73ab0327754bb83e3ea0edc5aa834a',
+      // },
+      // {
+      //   taskName: '隐藏广告',
+      //   taskId: 'f8fc47359795fe39535ead4bca48d175',
+      // },
     ],
   }
 }

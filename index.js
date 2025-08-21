@@ -15,7 +15,7 @@ class Config {
     maxRetries: 3, // 请求失败最大重试次数
     retryDelay: 1000, // 请求失败重试间隔：1秒
     activityDelay: 12000, // 活动执行间隔：12秒
-    maxAttempts: 3, // 活动最大执行次数
+    maxAttempts: 6, // 活动最大执行次数
   }
 
   static TASKS = {
